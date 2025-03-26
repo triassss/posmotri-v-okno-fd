@@ -73,7 +73,6 @@ ol {
 }
 
 .result {
-  grid-area: 'result';
   align-self: end;
 }
 
@@ -115,13 +114,6 @@ ol {
   flex-direction: row;
   align-items: center;
   gap: 5px;
-}
-
-.search-form__label-text {
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 16.6px;
 }
 
 .search-form__textfield {
@@ -225,10 +217,6 @@ ol {
 .search-form__submit-button {
   align-self: flex-end;
   width: 100%;
-}
-
-.content__details {
-  grid-area: 'content__details';
 }
 
 .title {
@@ -343,5 +331,4 @@ ol {
 
 .more-button {
   flex-grow: 1;
-  margin: 2px;
 }
